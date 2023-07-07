@@ -15,13 +15,13 @@ export default function Pagination({
   return (
     <div>
       {pages.map((page, index) => {
-        const className = `px-4 py-2 drop-shadow-md mr-3 mb-10 mt-5 bg-indigo-500 text-white rounded-sm hover:bg-indigo-600 hover:scale-105 duration-200 ${
+        const styling = `px-4 py-2 drop-shadow-md mr-3 mb-10 mt-5 bg-indigo-500 text-white rounded-sm hover:bg-indigo-600 hover:scale-105 duration-200 ${
           page == currentPage ? "bg-green-500  hover:bg-green-600" : ""
         }`;
         return (
           <button
             key={index}
-            className={className}
+            className={styling}
             onClick={() => setCurrentPage(page)}
           >
             {page}
