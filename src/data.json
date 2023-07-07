@@ -1,0 +1,106 @@
+{
+  "ImageGallery": [
+    {
+      "id": 1,
+      "title": "Elon Musk",
+      "desc": "",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/62d700cd6094d2c180f269b9/0x0.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Bernard Arnault",
+      "desc": "",
+      "img": "https://r.lvmh-static.com/uploads/2014/10/ba-comex-bis.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Jeff Bezos",
+      "desc": "",
+      "img": "https://assets.entrepreneur.com/content/3x2/2000/20150224165308-jeff-bezos-amazon.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Larry Ellison",
+      "desc": "",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/0/00/Larry_Ellison_picture.png"
+    },
+    {
+      "id": 5,
+      "title": "Bill Gates",
+      "desc": "",
+      "img": "https://wp.technologyreview.com/wp-content/uploads/2021/02/20210128_Keatley-Bill_Gates_0107_R.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Waren Buffet",
+      "desc": "",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/5babb7f1a7ea4342a948b79a/0x0.jpg?format=jpg&crop=2327,2329,x748,y1753,safe&height=416&width=416&fit=bounds"
+    },
+    {
+      "id": 7,
+      "title": "Steve Ballmer",
+      "desc": "",
+      "img": "https://cdn.nba.com/teams/legacy/www.nba.com/clippers/sites/clippers/files/ballmer.headshot-800_0.png"
+    },
+    {
+      "id": 8,
+      "title": "Mark Zukerberg",
+      "desc": "",
+      "img": "https://cdn.britannica.com/98/236598-050-9F0C5A8D/Mark-Zuckerberg-2019.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Lary Page",
+      "desc": "",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-83414114.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Carlos Slim",
+      "desc": "",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Carlos_Slim_%2845680472234%29_%28cropped%29.jpg/330px-Carlos_Slim_%2845680472234%29_%28cropped%29.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Sergey Brin",
+      "desc": "",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sergey_Brin_Ted_2010.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Mukesh Ambani",
+      "desc": "",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/5c7d7829a7ea434b351ba0b6/0x0.jpg?format=jpg&crop=1837,1839,x206,y250,safe&height=416&width=416&fit=bounds"
+    },
+    {
+      "id": 13,
+      "title": "Micheal Bloomberg",
+      "desc": "",
+      "img": "https://www.c40.org/wp-content/uploads/2021/04/Michael-R.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Francoise",
+      "desc": "",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/605e26e3c65f7c2596bd3e15/0x0.jpg?format=jpg&crop=1080,1080,x0,y0,safe&height=416&width=416&fit=bounds"
+    },
+    {
+      "id": 15,
+      "title": "Amanico Ortega",
+      "desc": "",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/5c76b94131358e35dd27748e/0x0.jpg?format=jpg&crop=2053,2053,x179,y216,safe&height=416&width=416&fit=bounds"
+    },
+    {
+      "id": 16,
+      "title": "Jim Walton",
+      "desc": "",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/5c7ef2fea7ea434b351bca5a/0x0.jpg?format=jpg&crop=885,886,x49,y65,safe&height=416&width=416&fit=bounds"
+    },
+    {
+      "id": 17,
+      "title": "Rob Walton",
+      "desc": "",
+      "img": "https://wffcdn.scdn7.secure.raxcdn.com/dims4/default/5bd0fd7/2147483647/strip/true/crop/2212x2212+777+0/resize/1000x1000!/quality/90/?url=https%3A%2F%2F8ce82b94a8c4fdc3ea6d-b1d233e3bc3cb10858bea65ff05e18f2.ssl.cf2.rackcdn.com%2Fc3%2Fd7%2F2fe67dfb4293b24e782758b62002%2Fedited-headshots-rob-walton.jpg"
+    }
+  ]
+}

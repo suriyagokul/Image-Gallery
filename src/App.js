@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import ShowData from "./components/ShowData";
+import Pagination from "./components/Pagination";
+import data from "./data.json";
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState(1);
+  const [imagesPerPage, setImagesPerPage] = useState(9);
+
+  const lastIndexOfImage = currentPage * imagesPerPage; // 1 * 9 = 9
+  const firstIndexOfImage = lastIndexOfImage - imagesPerPage; // 9 - 9 = 0
+
+  const items = data.ImageGallery.slice(firstIndexOfImage, lastIndexOfImage);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 600) {
+        setImagesPerPage(5);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="z-0 mt-20">
+        <ShowData items={items} />
+        <Pagination
+          totalImages={data.ImageGallery.length}
+          ImagesPerPage={imagesPerPage}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        />
+      </div>
     </div>
   );
 }
