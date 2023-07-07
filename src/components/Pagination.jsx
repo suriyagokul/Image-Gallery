@@ -32,7 +32,7 @@ export default function Pagination({
           "duration-200",
         ];
 
-        if (page === currentPage) {
+        if (page == currentPage) {
           classNames.push("bg-green-500", "hover:bg-green-600");
         } else {
           classNames.push("bg-indigo-500", "hover:bg-indigo-600");
