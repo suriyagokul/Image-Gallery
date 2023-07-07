@@ -26,16 +26,16 @@ export default function Pagination({
           "mr-3",
           "mb-10",
           "mt-5",
-          "bg-indigo-500",
           "text-white",
           "rounded-sm",
-          "hover:bg-indigo-600",
           "hover:scale-105",
           "duration-200",
         ];
 
         if (page === currentPage) {
           classNames.push("bg-green-500", "hover:bg-green-600");
+        } else {
+          classNames.push("bg-indigo-500", "hover:bg-indigo-600");
         }
 
         const styling = classNames.join(" ");
